@@ -1,0 +1,21 @@
+{
+  "name": "node-vscode-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build",
+    "build": "babel src --out-dir build"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "ramda": "^0.24.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
